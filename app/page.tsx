@@ -4,15 +4,17 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        TJ Sari-Sari Store
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Welcome to TJ Sari-Sari Store—your new neighborhood shop for all your daily essentials! We offer quality household items, snacks, and beverages 
+        at affordable prices, making it easy and convenient for everyone to find what they need.`}
       </p>
+      <p className="mb-4">
+        {`Please note that our website is currently under construction as we work to provide you with a seamless online experience. Check back in 
+        the following weeks for exciting updates and new features! Thank you for supporting TJ Sari-Sari Store; we look forward to serving our community!`}
+      </p>
+
       <div className="my-8">
         <BlogPosts />
       </div>
