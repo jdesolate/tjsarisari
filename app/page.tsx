@@ -1,4 +1,9 @@
 import { BlogPosts } from 'app/components/posts'
+import Link from 'next/link'
+import { PRODUCT_ROUTE } from './constants/NavItems.constant'
+
+import { ChakraProvider } from '@chakra-ui/react'
+import { Button, } from '@chakra-ui/react'
 
 export default function Page() {
   return (
@@ -18,6 +23,16 @@ export default function Page() {
       <div className="my-8">
         <BlogPosts />
       </div>
+
+      <Button colorScheme='red'>
+        <Link
+          href={PRODUCT_ROUTE}
+          className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
+        >
+          View Products
+        </Link>
+      </Button>
+
     </section>
   )
 }
