@@ -1,5 +1,5 @@
 "use client"
-import { Card, CardBody, Stack, Divider, CardFooter, ButtonGroup, Button, Image, Text, SimpleGrid } from "@chakra-ui/react";
+import { Card, CardBody, Stack, Divider, CardFooter, Button, Image, Text, SimpleGrid } from "@chakra-ui/react";
 import { useCart } from "app/context/CartContext";
 import { Product } from "app/types/Product.type";
 

@@ -27,7 +27,7 @@ export default function Page() {
       <Button colorScheme='red'>
         <Link
           href={PRODUCT_ROUTE}
-          className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
+          className="transition-all hover:text-neutral-800 flex align-middle relative py-1 px-2 m-1"
         >
           View Products
         </Link>
