@@ -1,9 +1,9 @@
 "use client"
 import { SimpleGrid } from "@chakra-ui/react";
-import ProductCard from "../components/ProductCard/ProductCard";
+import ProductCard from "../../components/ProductCard/ProductCard";
 import { useEffect, useState } from "react";
 import { getProducts } from "../services/productService";
-import { Product } from "app/types/Product.type";
+import { Product } from "@/types/Product.type";
 
 export default function Page() {
   const [products, setProducts] = useState<Product[]>([]);

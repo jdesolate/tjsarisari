@@ -1,7 +1,7 @@
 "use client"
 import { Card, CardBody, Stack, Divider, CardFooter, Button, Image, Text, SimpleGrid } from "@chakra-ui/react";
 import { useCart } from "app/context/CartContext";
-import { Product } from "app/types/Product.type";
+import { Product } from "@/types/Product.type";
 
 type ProductCardProps = {
   product: Product;

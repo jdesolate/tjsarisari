@@ -1,5 +1,5 @@
 "use client"
-import { CartContextType, CartItem, Product } from "app/types/Product.type";
+import { CartContextType, CartItem, Product } from "@/types/Product.type";
 import React, { createContext, useState, useContext, ReactNode } from "react";
 
 

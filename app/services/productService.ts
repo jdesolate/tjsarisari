@@ -1,8 +1,8 @@
 "use client"
 import { getDocs } from "firebase/firestore";
-import { productsRef } from "../firebase/firebaseConfig";
-import { Product } from "app/types/Product.type";
-import { SampleProducts } from "../constants/Products.constant";
+import { productsRef } from "../../firebase/firebaseConfig";
+import { Product } from "@/types/Product.type";
+import { SampleProducts } from "../../constants/Products.constant";
 
 export const getProducts = async (): Promise<Product[]> => {
   // const productSnapshot = await getDocs(productsRef);

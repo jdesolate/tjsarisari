@@ -2,14 +2,12 @@ import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Navbar } from './components/nav'
-import Footer from './components/footer'
-import { baseUrl } from './sitemap'
+import { Navbar } from '../components/nav'
+import Footer from '../components/footer'
 import { Analytics } from "@vercel/analytics/react"
 import { ChakraProvider } from '@chakra-ui/react'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
   title: {
     default: 'TJ Sari-Sari Store',
     template: '%s | TJ Sari-Sari Store',
@@ -20,7 +18,6 @@ export const metadata: Metadata = {
     title: 'TJ Sari-Sari Store',
     description: `Your one - stop sari - sari store located in D.Jakosalem St., Cebu City.We offer a wide range of 
   everyday essentials, snacks, beverages, and household items at affordable prices.Open daily to serve your community needs.`,
-    url: baseUrl,
     siteName: 'TJ Sari-Sari Store',
     locale: 'en_PH',
     type: 'website',
