@@ -1,8 +1,5 @@
-import { BlogPosts } from 'app/components/posts'
 import Link from 'next/link'
-import { PRODUCT_ROUTE } from './constants/NavItems.constant'
-
-import { ChakraProvider } from '@chakra-ui/react'
+import { PRODUCT_ROUTE } from '../constants/NavItems.constant'
 import { Button, } from '@chakra-ui/react'
 
 export default function Page() {
@@ -12,17 +9,11 @@ export default function Page() {
         TJ Sari-Sari Store
       </h1>
       <p className="mb-4">
-        {`Welcome to TJ Sari-Sari Store—your new neighborhood shop for all your daily essentials! We offer quality household items, snacks, and beverages 
-        at affordable prices, making it easy and convenient for everyone to find what they need.`}
+        {`Welcome to TJ Sari-Sari Store—your go-to spot for everyday essentials. We offer quality household items, snacks, and beverages at affordable prices for your convenience.`}
       </p>
       <p className="mb-4">
-        {`Please note that our website is currently under construction as we work to provide you with a seamless online experience. Check back in 
-        the following weeks for exciting updates and new features! Thank you for supporting TJ Sari-Sari Store; we look forward to serving our community!`}
+        {`Our website is under construction as we work to bring you a smooth online shopping experience. Stay tuned for updates! Thank you for supporting TJ Sari-Sari Store—we’re excited to serve you.`}
       </p>
-
-      <div className="my-8">
-        <BlogPosts />
-      </div>
 
       <Button colorScheme='red'>
         <Link
