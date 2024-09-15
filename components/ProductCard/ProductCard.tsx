@@ -14,11 +14,11 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <Card maxW='sm'>
       <CardBody>
-        <Image
+        {/* <Image
           src={image}
           alt={name}
           borderRadius='lg'
-        />
+        /> */}
         <Stack mt='6' spacing='3'>
           <Text fontWeight={"bold"} size='xs'>{name}</Text>
           <Text color='red.600' fontSize='2xl'>
@@ -29,9 +29,9 @@ export default function ProductCard({ product }: ProductCardProps) {
       <Divider />
       <CardFooter>
         <SimpleGrid columns={2} spacing={5} alignItems={"center"}>
-          <Text variant='ghost'>
+          {/* <Text variant='ghost'>
             Stock: {stock}
-          </Text>
+          </Text> */}
           <Button variant='solid' onClick={() => addToCart(product)}>
             Add to cart
           </Button>
