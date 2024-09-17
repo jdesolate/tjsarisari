@@ -25,18 +25,7 @@ export default function ProductsLayout({ children }: {
 
   return (
     <CartProvider>
-      <SimpleGrid columns={2} spacing={5}>
-        <Heading>
-          Product Listings
-        </Heading>
-        <Button onClick={openCartDrawer} variant={"solid"} >
-          View Cart
-        </Button>
-      </SimpleGrid>
       {children}
-      <CartModal isOpen={isOpen} onClose={closeCartDrawer} onClear={clearCartDrawer}>
-        <CartContent />
-      </CartModal>
     </CartProvider>
   )
 }
