@@ -126,7 +126,7 @@ export default function Page() {
 
           {/* Responsive Table */}
           <Box overflowX="auto">
-            <Table colorScheme="red" size={tableFontSize} variant={"unstyled"}>
+            <Table colorScheme="gray" size={tableFontSize} variant='simple'>
               <Thead>
                 <Tr>
                   <Th>Product Name</Th>
